@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formula E - Trading Automatico su Ethereum</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Formula E</h1>
+        <p>Il tuo software di trading automatico su Ethereum</p>
+        <button id="ctaButton">Prova ora</button>
+    </header>
+
+    <section class="slider">
+        <div class="slide">
+            <img src="img/slider1.jpg" alt="Immagine 1">
+            <p>Testimonianza 1</p>
+        </div>
+        <div class="slide">
+            <img src="img/slider2.jpg" alt="Immagine 2">
+            <p>Testimonianza 2</p>
+        </div>
+        <div class="slide">
+            <img src="img/slider3.jpg" alt="Immagine 3">
+            <p>Testimonianza 3</p>
+        </div>
+    </section>
+
+    <button id="contactButton">Contattaci</button>
+
+    <div id="contactPopup" style="display:none;">
+        <form action="https://formspree.io/f/mqaqqeop" method="POST">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Messaggio</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Invia</button>
+        </form>
+        <button onclick="closePopup()">Chiudi</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
